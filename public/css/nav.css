@@ -1,4 +1,7 @@
 nav div {
   display: inline-block;
-  width: 16%;
+  width: 20%;
   text-align: center; }
+  nav div a {
+    width: 100%;
+    display: block; }

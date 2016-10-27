@@ -4,5 +4,7 @@ header .logo {
 
 header .contact {
   font-size: 1.5rem;
-  margin: 1.2rem 1.8rem;
+  margin: 1.2rem 1.8rem 0 0;
   float: right; }
+  header .contact .fa {
+    font-size: 2rem; }

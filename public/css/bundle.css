@@ -2,10 +2,13 @@
   margin: 0 2rem 0 2rem; }
   .content nav div {
     display: inline-block;
-    width: 16%;
+    width: 20%;
     text-align: center; }
+    .content nav div a {
+      width: 100%;
+      display: block; }
   .content img {
-    margin: 0 auto 0 auto; }
+    width: 100%; }
 
 header .logo {
   width: 6rem;
@@ -13,5 +16,7 @@ header .logo {
 
 header .contact {
   font-size: 1.5rem;
-  margin: 1.2rem 1.8rem;
+  margin: 1.2rem 1.8rem 0 0;
   float: right; }
+  header .contact .fa {
+    font-size: 2rem; }
