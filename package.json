@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node-sass scss/index.scss -o public/css",
-    "css-w": "node-sass scss/index.scss -w -o public/css"
+    "css": "node-sass scss/bundle.scss -o public/css",
+    "css-w": "node-sass scss/bundle.scss -w -o public/css"
 
   },
   "author": "",

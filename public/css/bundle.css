@@ -1,0 +1,17 @@
+.content {
+  margin: 0 2rem 0 2rem; }
+  .content nav div {
+    display: inline-block;
+    width: 16%;
+    text-align: center; }
+  .content img {
+    margin: 0 auto 0 auto; }
+
+header .logo {
+  width: 6rem;
+  margin: .7rem 0 0 1.2rem; }
+
+header .contact {
+  font-size: 1.5rem;
+  margin: 1.2rem 1.8rem;
+  float: right; }
