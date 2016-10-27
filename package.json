@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass scss/index.scss -o public/css",
+    "css-w": "node-sass scss/index.scss -w -o public/css"
+
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.2",
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "node-sass": "^3.10.1"
   }
 }
