@@ -7,7 +7,19 @@ header {
     width: 6rem;
     margin: .7rem 0 0 1.2rem; }
   header .contact {
-    margin: 1.2rem 1.8rem 0 0;
+    margin: 2.1rem 1.8rem 0 0;
     float: right; }
+    header .contact .fa-facebook-square {
+      color: #546ca0; }
+    header .contact .fa-twitter-square {
+      color: #95eeff;
+      margin-left: 1rem; }
     header .contact .fa {
       font-size: 4rem; }
+    header .contact .white {
+      width: 3.1rem;
+      height: 3rem;
+      margin-top: -3.4rem;
+      margin-left: .2rem;
+      border-radius: .3rem;
+      background-color: white; }
