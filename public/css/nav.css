@@ -1,4 +1,6 @@
 nav {
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
   background-color: #454545; }
   nav div {
     padding: .5rem 1rem;
