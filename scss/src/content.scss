@@ -1,8 +1,24 @@
-.content {
-    @import "scss/src/nav.scss";
-    margin: 0 2rem 0 2rem;
-    img {
-        width: 100%;
-    }
+.content-wrapper{
+    border-radius-top-left: 0.4rem;
+    border-radius-top-right: 0.4rem;
+    background-color: #454545;;
+    padding: 0rem .5rem 1rem;
+    margin-top: -1rem;
+    .content {
+	    //margin: 0 2rem 0 2rem;
+	    //border: 1px black solid;
+	    border-radius: 0.4rem;
+	    color: white;
+	    bacground-color: #222;
+	    padding: .9rem 2rem 3rem;
+	    background-color: #222;
+	    margin: 1rem;
+	    font-size: 1.3rem;
+	    img {
+		margin-bottom: 1rem;
+		width: 100%;
+		height: 27rem;
+	    }
 
+     }
 }

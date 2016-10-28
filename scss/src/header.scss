@@ -1,16 +1,21 @@
 header {
+    margin-bottom: 1rem;	
+    .email , .phone {
+	display: none;	
+    }
     .logo{
+	border-radius: 100%;
         width: 6rem;
         margin: .7rem 0 0 1.2rem;    
 
     }
     .contact{
-        font-size: 1.5rem;
+        //font-size: 1.5rem;
         margin: 1.2rem 1.8rem 0 0;
         float: right;
 
         .fa {
-            font-size: 2rem;    
+            font-size: 4rem;    
             
         }
     }
