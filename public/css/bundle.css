@@ -88,3 +88,8 @@ nav {
     float: right; }
   .system:nth-child(odd) .spec-wrapper {
     float: left; }
+
+.clients .thumbnail-row .thumbnail-wrapper img {
+  height: 10rem;
+  width: 16rem;
+  display: inline-block; }

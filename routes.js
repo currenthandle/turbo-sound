@@ -8,5 +8,9 @@ module.exports = (app) => {
     app.get('/system', (req, res) => {
         res.render('system');
     });
+    app.get('/clients', (req, res) => {
+        let clients = require('./data/clients');
+        res.render('clients', { clients: clients });
+    });
 
 };

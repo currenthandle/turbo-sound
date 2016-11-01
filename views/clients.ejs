@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bundle.css">
+</head>
+<body>
+    <% include header.ejs %>
+    <% include nav.ejs %>
+
+    <div class='content-wrapper'>
+	    <div class='content clients'>
+            <img class='main-img'>
+            <div class='thumbnail-row'>
+                <div class='thumbnail-wrapper'>
+                    <div class='left-arw'>
+                    </div>
+                    <% clients.forEach(function(cleint) { %>
+                        <img class='thumbnail'>
+                    <% })  %>
+                    <div class='right-arw'>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
