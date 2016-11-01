@@ -12,7 +12,7 @@ body {
     border-radius: 0.2rem;
     color: white;
     background-color: #222;
-    padding: .9rem 2rem 3rem;
+    padding: 1.9rem 2rem 1rem;
     background-color: #222;
     margin: 1rem;
     font-size: 1.3rem; }
@@ -66,3 +66,25 @@ nav {
       text-decoration: none;
       color: white;
       font-size: 1.7rem; }
+
+.system {
+  height: 20rem; }
+  .system img {
+    width: 45% !important;
+    height: 16rem !important;
+    display: inline-block; }
+  .system .spec-wrapper {
+    display: inline-block;
+    width: 45%; }
+    .system .spec-wrapper li:first-child {
+      margin-top: 2rem; }
+    .system .spec-wrapper li {
+      font-size: 1.8rem; }
+  .system:nth-child(even) img {
+    float: left; }
+  .system:nth-child(even) .spec-wrapper {
+    float: right; }
+  .system:nth-child(odd) img {
+    float: right; }
+  .system:nth-child(odd) .spec-wrapper {
+    float: left; }

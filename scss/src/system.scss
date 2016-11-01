@@ -1,0 +1,45 @@
+$system-height : 20rem;
+.content .system-content {
+    
+}
+.system {
+    height: $system-height;
+    img {         
+        width: 45% !important; 
+        height: 16rem !important;
+        display: inline-block;
+    }
+    .spec-wrapper {
+        display: inline-block;
+        width: 45%;
+        h2 {
+
+        }
+        li:first-child {
+            margin-top: 2rem;
+        }
+        li {
+            font-size: 1.8rem;
+            //margin-left: 2rem;
+        }
+    }
+    &:nth-child(even){
+        img { 
+            float: left; 
+        }
+        .spec-wrapper {
+            float: right;
+            //margin-left: 5%;
+        }
+    }
+    &:nth-child(odd){
+        img { 
+            float: right; 
+        }
+        .spec-wrapper {
+            float: left;
+            //margin-right: 5%;
+        }
+    }
+
+}
