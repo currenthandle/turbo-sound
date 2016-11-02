@@ -16,13 +16,21 @@ var left = d.querySelector('.left-arw');
 var right = d.querySelector('.right-arw');
 
 left.addEventListener('click', function(e) {
-    console.log('left')
-    thumnailWrapper.scrollLeft -= tWidth;
+    var iterations = 0;
+    var interval = setInterval(function() {
+        if(iterations > 50) clearInterval(interval);
+        thumnailWrapper.scrollLeft -= tWidth/50;
+        iterations++
+    }, 2);
 });
 
 right.addEventListener('click', function(e) {
-    console.log('right')
-    thumnailWrapper.scrollLeft += tWidth;
+    var iterations = 0;
+    var interval = setInterval(function() {
+        if(iterations > 50) clearInterval(interval);
+        thumnailWrapper.scrollLeft += tWidth/50;
+        iterations++
+    }, 2);
 });
 
 
