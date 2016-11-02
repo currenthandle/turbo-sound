@@ -1,2 +1,5 @@
 node_modules
 turbo-sound.pem
+encore/
+.DS_Store
+
