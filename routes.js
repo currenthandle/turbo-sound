@@ -12,5 +12,8 @@ module.exports = (app) => {
         let clients = require('./data/clients');
         res.render('clients', { clients: clients });
     });
+    app.get('/contact', (req, res) => {
+        res.render('contact');
+    });
 
 };

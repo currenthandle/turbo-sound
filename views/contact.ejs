@@ -9,9 +9,25 @@
     <% include nav.ejs %>
 
     <div class='content-wrapper'>
-	    <div class='content'>
-       
-      </div>
+	    <div class='content contact'>
+            <form>
+                <input 
+                    type='text' 
+                    name='name' 
+                    placeholder='Name' 
+                    required>
+                <input 
+                    type='text' 
+                    name='email' 
+                    placeholder='E-Mail Address' 
+                    required>
+                <textarea 
+                    name='body' 
+                    placeholder='Message...'
+                    required></textarea>
+                <div class='btn-wrapper'><button>Send</button></div>
+            </form>
+        </div>
     </div>
 
 </body>
