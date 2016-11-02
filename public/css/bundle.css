@@ -89,7 +89,29 @@ nav {
   .system:nth-child(odd) .spec-wrapper {
     float: left; }
 
-.clients .thumbnail-row .thumbnail-wrapper img {
-  height: 10rem;
-  width: 16rem;
-  display: inline-block; }
+.clients .thumbnail-row .arw {
+  display: inline-block;
+  border: .2rem white solid;
+  width: 2.5rem;
+  height: 1.4rem;
+  border-radius: 100%;
+  vertical-align: top;
+  margin-top: 2.9rem; }
+
+.clients .thumbnail-row .left-arw {
+  float: left; }
+
+.clients .thumbnail-row .right-arw {
+  float: right; }
+
+.clients .thumbnail-row .thumbnail-wrapper {
+  display: inline-block;
+  text-align: center;
+  margin-left: 1%;
+  width: 89%;
+  white-space: nowrap;
+  overflow: scroll; }
+  .clients .thumbnail-row .thumbnail-wrapper img {
+    height: 7rem;
+    width: 9rem;
+    display: inline-block; }

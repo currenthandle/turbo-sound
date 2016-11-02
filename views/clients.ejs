@@ -10,16 +10,16 @@
 
     <div class='content-wrapper'>
 	    <div class='content clients'>
-            <img class='main-img'>
+            <img class='main-img' src='img/<%= clients[0].src %>'>
             <div class='thumbnail-row'>
+                <div class='arw left-arw'>
+                </div>
                 <div class='thumbnail-wrapper'>
-                    <div class='left-arw'>
-                    </div>
-                    <% clients.forEach(function(cleint) { %>
-                        <img class='thumbnail'>
+                    <% clients.forEach(function(client) { %>
+                    <img class='thumbnail' src='img/<%= client.src  %>' >
                     <% })  %>
-                    <div class='right-arw'>
-                    </div>
+                </div>
+                <div class='arw right-arw'>
                 </div>
             </div>
             

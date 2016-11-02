@@ -1,9 +1,37 @@
 .clients {
     .thumbnail-row {
+        .arw {
+            //width: 3rem;
+            display: inline-block;
+            border: .2rem white solid;
+            width: 2.5rem;
+            height: 1.4rem;
+            border-radius: 100%;
+            vertical-align: top;
+            margin-top: 2.9rem;
+        }
+        .left-arw {
+            float: left;
+        }
+        .right-arw {
+            //width: 5%;
+            float: right;
+        }
         .thumbnail-wrapper {
+            display: inline-block;
+            text-align: center;
+            margin-left: 1%;
+            width: 89%;
+            //margin-right: 4rem;
+
+            //margin-left: 4.5rem;
+            //margin-right: 4.5rem;
+            //margin: 0 6rem 0 2rem;
+            white-space: nowrap;
+            overflow: scroll;
             img {
-                height: 10rem;
-                width: 16rem;
+                height: 7rem;
+                width: 9rem;
                 display: inline-block;
                 //overflow: hidden;
 
