@@ -1,38 +1,36 @@
 header {
     margin-bottom: 1rem;	
     .email , .phone {
-	display: none;	
+        display: none;	
     }
     .logo{
-	border-radius: 100%;
+        border-radius: 100%;
         width: 6rem;
-        margin: .7rem 0 0 1.2rem;    
-
+        margin: .7rem 0 0 6rem;    
     }
     .contact{
         //font-size: 1.5rem;
         margin: 2.1rem 1.8rem 0 0;
         float: right;
 
-	.fa-facebook-square{
-	    color: #546ca0;
-	}
-	.fa-twitter-square{
-	    color: #95eeff;
-	    margin-left: 1rem;
-	}
+        .fa-facebook-square{
+            color: #546ca0;
+        }
+        .fa-twitter-square{
+            color: #95eeff;
+            margin-left: 1rem;
+        }
         .fa {
-	    //background-color: white;
-            font-size: 4rem;    
-            
+            //background-color: white;
+            font-size: 4.5rem;    
         }
 	    .white {
-		width: 3.1rem;
-		height: 3rem;
-		margin-top: -3.4rem;
-		margin-left: .2rem;
-		border-radius: .3rem;
-		background-color: white;
+            width: 3.1rem;
+            height: 3.51rem;
+            margin-top: -3.8rem;
+            margin-left: .2rem;
+            border-radius: .6rem;
+            background-color: white;
 	    }
     }
 }

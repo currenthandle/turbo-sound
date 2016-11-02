@@ -5,10 +5,11 @@ nav {
   nav div {
     padding: .5rem 1rem;
     display: inline-block;
-    margin: 0 2.8%;
+    text-align: center;
+    width: 15%;
     font-size: 1.4rem; }
     nav div:first-child {
-      margin-left: 10%; }
+      margin-left: 1%; }
     nav div:hover {
       background-color: red; }
     nav div a {

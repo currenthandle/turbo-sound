@@ -3,22 +3,24 @@ nav {
     border-top-right-radius: 0.2rem;
     background-color: #454545;
     div {
-	padding: .5rem 1rem;
-	display: inline-block;
-	margin: 0 2.8%;
-	font-size: 1.4rem;
-	&:first-child {
-	    margin-left: 10%;
-	}
-	&:hover {
-	    background-color: red;
-	}
-	a{
-	    width: 100%;
-	    display: block;
-	    text-decoration: none;
-	    color: white;
-	    font-size: 1.7rem;
-	}
+        padding: .5rem 1rem;
+        display: inline-block;
+        text-align: center;
+        //margin: 0 2.8%;
+        width: 15%;
+        font-size: 1.4rem;
+        &:first-child {
+            margin-left: 1%;
+        }
+        &:hover {
+            background-color: red;
+        }
+        a{
+            width: 100%;
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-size: 1.7rem;
+        }
     }
 }
