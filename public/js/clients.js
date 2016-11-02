@@ -4,6 +4,14 @@ var thumnailWrapper = d.querySelector('.thumbnail-wrapper');
 var thumbnails = d.querySelectorAll('.thumbnail'); 
 var tWidth = thumbnails[0].width; 
 
+var mainImg = d.querySelector('.main-img');
+for(var i = 0; i < thumbnails.length; i++){
+    thumbnails[i].addEventListener('click', function(e) {
+        mainImg.src = e.target.src;
+    });
+}
+
+
 var left = d.querySelector('.left-arw');
 var right = d.querySelector('.right-arw');
 
