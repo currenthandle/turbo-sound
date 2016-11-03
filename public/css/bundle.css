@@ -54,7 +54,7 @@ nav {
   border-top-right-radius: 0.2rem;
   background-color: #454545; }
   nav div {
-    padding: .5rem 1rem;
+    padding: .5rem 2%;
     display: inline-block;
     text-align: center;
     width: 15%;
@@ -111,7 +111,7 @@ nav {
   display: inline-block;
   text-align: center;
   margin-left: 1%;
-  width: 89%;
+  width: 80%;
   white-space: nowrap;
   overflow: scroll; }
   .clients .thumbnail-row .thumbnail-wrapper img {
@@ -120,14 +120,19 @@ nav {
     display: inline-block; }
 
 .contact input {
-  width: 17rem;
+  border: .1rem #999 solid;
+  width: 45%;
   height: 2rem;
-  display: block;
+  display: inline-block;
   margin-bottom: 2rem;
   font-size: 1.2rem;
-  padding-left: .5rem; }
+  padding-left: .5rem;
+  background-color: #222; }
+  .contact input:first-child {
+    margin-right: 3%; }
 
 .contact textarea {
+  background-color: #222;
   padding-left: .5rem;
   resize: none;
   width: 99%;
